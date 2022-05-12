@@ -1,0 +1,85 @@
+.mailBoxList{
+    flex: 4;
+}
+
+.userDisplay{
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin: auto; 
+    width: fit-content;
+    display: flex;
+    background-color: rgb(245, 245, 252);;
+    }
+.styled-table {
+        border-collapse: collapse;
+        font-size: 0.9em;
+        font-family: sans-serif;
+        }
+.styled-table thead tr {
+      background-color:rgb(197, 197, 206);
+      color:#ffffff;
+      text-align: center;
+      align-items: center;
+            }
+          
+.styled-table th,
+.styled-table td{
+              
+      padding: 12px 12px;
+     }
+          
+.styled-table tbody tr{
+    border-bottom: 1px solid #e7e7e7;
+              
+          }
+
+
+.btn{
+    border: none;
+    color: white;
+    padding:5px 8px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+    .edit {
+      color: rgb(11, 10, 107);
+      display: inline-block;
+      border-radius: 5px;
+      padding:2px 4px;
+      cursor: pointer;
+      align-items: center;
+      margin: 0 auto;
+    }
+    .delete{
+      color: rgb(209, 6, 6);
+      display: inline-block;
+      border-radius: 5px;
+      padding:2px 4px;
+      cursor: pointer;
+      align-items: center;
+      margin: 0 auto;
+      
+    }
+    .view{
+      color: rgb(116, 111, 111);
+      display: inline-block;
+      border-radius: 5px;
+      padding:2px 4px;
+      cursor: pointer;
+      align-items: center;
+      margin: 0 auto;
+    }
+    .btn-mailbox{
+      background-color:darkblue;
+      margin: auto;
+      display: flex;
+      margin-bottom: 10px;
+      
+      
+    }
